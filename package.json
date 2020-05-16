@@ -1,0 +1,32 @@
+{
+  "name": "escape-html-tags",
+  "description": "Escape string having html tags for use in HTML",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "email": "vikaskeskar11@gmail.com",
+    "name": "Vikas Keskar",
+    "url": "https://github.com/vikaskeskar11"
+  },
+  "keywords": [
+    "escape",
+    "html",
+    "tags",
+    "escape html",
+    "utility"
+  ],
+  "repository": "escape-html-tags",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "maintainers": [
+    {
+      "name": "Vikas Keskar",
+      "email": "vikaskeskar11@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/vikaskeskar11/escape-html-tags",
+  "publisher": "https://github.com/vikaskeskar11/escape-html-tags"
+}
