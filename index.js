@@ -61,6 +61,4 @@ function escapeHtmlTags (input) {
     : html
 }
 
-console.log(escapeHtmlTags('<a>'))
-
-// module.exports = escapeHtmlTags
+module.exports = escapeHtmlTags
