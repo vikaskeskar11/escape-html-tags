@@ -27,7 +27,7 @@ function escapeHtmlTags (input) {
   let index = 0
   let lastIndex = 0
 
-  for (index = str.length; index > match.index; index++) {
+  for (index = str.length; index > match.index; index--) {
     switch (str.charCodeAt(index)) {
       case 34: // "
         escape = '&quot;'
@@ -61,4 +61,6 @@ function escapeHtmlTags (input) {
     : html
 }
 
-module.exports = escapeHtmlTags
+console.log(escapeHtmlTags('<a>'))
+
+// module.exports = escapeHtmlTags
